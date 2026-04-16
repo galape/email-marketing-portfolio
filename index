@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Marketing Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            border-bottom: 2px solid #0078d4;
+            padding-bottom: 10px;
+            color: #0078d4;
+            font-size: 24px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        a {
+            text-decoration: none;
+            color: #444;
+            display: block;
+            padding: 12px;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+        }
+        a:hover {
+            background-color: #0078d4;
+            color: white;
+            padding-left: 20px;
+        }
+        .badge {
+            font-size: 10px;
+            background: #e1e1e1;
+            padding: 2px 6px;
+            border-radius: 10px;
+            float: right;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Email Marketing Portfolio</h1>
+    <p>Selecciona una pieza para visualizarla:</p>
+    <ul>
+        <li><a href="Preferent Center ACTUALIZACION TUTEO.html">Preferent Center ACTUALIZACION TUTEO <span class="badge">HTML</span></a></li>
+        <li><a href="EC QUITO ME ENCANTA.html">EC QUITO ME ENCANTA <span class="badge">HTML</span></a></li>
+        <li><a href="king league VOSEO jornada 8.html">King League VOSEO Jornada 8 <span class="badge">HTML</span></a></li>
+        <li><a href="king league TUTEO.html">King League TUTEO <span class="badge">HTML</span></a></li>
+        <li><a href="PA_NEWLEEDS-App-Friday.html">PA NEWLEEDS - App Friday <span class="badge">HTML</span></a></li>
+        <li><a href="PA_High-potential-low-App-Friday.html">PA High Potential Low - App Friday <span class="badge">HTML</span></a></li>
+        <li><a href="PA LOST-App-Friday.html">PA LOST - App Friday <span class="badge">HTML</span></a></li>
+        <li><a href="EC HERO email1-App-Friday.html">EC HERO Email 1 - App Friday <span class="badge">HTML</span></a></li>
+        <li><a href="AR HERO email1-App-Friday.html">AR HERO Email 1 - App Friday <span class="badge">HTML</span></a></li>
+        <li><a href="AR Hero App Friday.html">AR Hero App Friday <span class="badge">HTML</span></a></li>
+    </ul>
+</div>
+
+</body>
+</html>
