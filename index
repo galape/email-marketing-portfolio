@@ -18,7 +18,7 @@
             background-color: #fff;
             padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             max-width: 600px;
             width: 100%;
         }
@@ -27,54 +27,59 @@
             padding-bottom: 10px;
             color: #0078d4;
             font-size: 24px;
+            margin-top: 0;
         }
+        p { color: #666; font-size: 14px; }
         ul {
             list-style: none;
             padding: 0;
+            margin-top: 20px;
         }
         li {
-            margin: 10px 0;
-            border-bottom: 1px solid #eee;
+            margin: 8px 0;
         }
         a {
             text-decoration: none;
             color: #444;
             display: block;
-            padding: 12px;
-            transition: all 0.3s ease;
-            border-radius: 4px;
+            padding: 14px;
+            transition: all 0.2s ease;
+            border-radius: 6px;
+            border: 1px solid #eee;
+            background-color: #fafafa;
         }
         a:hover {
             background-color: #0078d4;
             color: white;
-            padding-left: 20px;
+            transform: translateX(5px);
+            border-color: #0078d4;
         }
         .badge {
             font-size: 10px;
-            background: #e1e1e1;
-            padding: 2px 6px;
+            background: rgba(0,0,0,0.05);
+            padding: 2px 8px;
             border-radius: 10px;
             float: right;
-            margin-top: 4px;
         }
+        a:hover .badge { background: rgba(255,255,255,0.2); }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>Email Marketing Portfolio</h1>
-    <p>Selecciona una pieza para visualizarla:</p>
+    <p>Selecciona una pieza para previsualizar el diseño HTML:</p>
     <ul>
-        <li><a href="Preferent Center ACTUALIZACION TUTEO.html">Preferent Center ACTUALIZACION TUTEO <span class="badge">HTML</span></a></li>
-        <li><a href="EC QUITO ME ENCANTA.html">EC QUITO ME ENCANTA <span class="badge">HTML</span></a></li>
-        <li><a href="king league VOSEO jornada 8.html">King League VOSEO Jornada 8 <span class="badge">HTML</span></a></li>
-        <li><a href="king league TUTEO.html">King League TUTEO <span class="badge">HTML</span></a></li>
-        <li><a href="PA_NEWLEEDS-App-Friday.html">PA NEWLEEDS - App Friday <span class="badge">HTML</span></a></li>
-        <li><a href="PA_High-potential-low-App-Friday.html">PA High Potential Low - App Friday <span class="badge">HTML</span></a></li>
-        <li><a href="PA LOST-App-Friday.html">PA LOST - App Friday <span class="badge">HTML</span></a></li>
-        <li><a href="EC HERO email1-App-Friday.html">EC HERO Email 1 - App Friday <span class="badge">HTML</span></a></li>
-        <li><a href="AR HERO email1-App-Friday.html">AR HERO Email 1 - App Friday <span class="badge">HTML</span></a></li>
-        <li><a href="AR Hero App Friday.html">AR Hero App Friday <span class="badge">HTML</span></a></li>
+        <li><a href="email1.html">Preferent Center ACTUALIZACION <span class="badge">HTML</span></a></li>
+        <li><a href="email2.html">EC QUITO ME ENCANTA <span class="badge">HTML</span></a></li>
+        <li><a href="email3.html">King League VOSEO Jornada 8 <span class="badge">HTML</span></a></li>
+        <li><a href="email4.html">King League TUTEO <span class="badge">HTML</span></a></li>
+        <li><a href="email5.html">PA NEWLEEDS - App Friday <span class="badge">HTML</span></a></li>
+        <li><a href="email6.html">PA High Potential Low - App Friday <span class="badge">HTML</span></a></li>
+        <li><a href="email7.html">PA LOST - App Friday <span class="badge">HTML</span></a></li>
+        <li><a href="email8.html">EC HERO Email 1 <span class="badge">HTML</span></a></li>
+        <li><a href="email9.html">AR HERO Email 1 <span class="badge">HTML</span></a></li>
+        <li><a href="email10.html">AR Hero App Friday <span class="badge">HTML</span></a></li>
     </ul>
 </div>
 
